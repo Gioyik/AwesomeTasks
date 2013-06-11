@@ -1,0 +1,37 @@
+{
+  "version": "1.0",
+  "name": "AwesomeTasks",
+  "description": "An awesome task notes, just slide.",
+  "launch_path": "/index.html",
+  "installs_allowed_from": ["*"],
+  "default_locale": "en",
+  "permissions": {
+    "storage": {
+      "description": "Required for storing and retrieving notes."
+      }
+  },
+  "locales": {
+    "es": {
+      "description": "Increible aplicacion para manejar tus tareas, solamente desliza.",
+      "developer": {
+        "url": "http://github.com/Gioyik"
+          }
+    },
+    "it": {
+      "description": "Incredibile applicazione per gestire le attività, solo diapositive.",
+      "developer": {
+      "url": "http://github.com/Gioyik"
+          }
+    }
+  },
+  "developer": {
+    "name": "Giovanny Andres Gongora Granada",
+    "url": "http://github.com/Gioyik"
+  },
+  "icons": {
+    "16": "/icons/16.png",
+    "32": "/icons/32.png",
+    "48": "/icons/48.png",
+    "128": "/icons/128.png"
+  }
+}
